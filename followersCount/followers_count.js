@@ -26,3 +26,12 @@ function increaseCount() {
   displayCount(); // Display the count
   checkCountValue(); // Check count value and display messages
 }
+function resetCount(){
+
+    
+    count = count - count;
+    console.log(count);
+    displayCount(); // Display the count
+    checkCountValue(); // Check count value and display messages
+
+}
